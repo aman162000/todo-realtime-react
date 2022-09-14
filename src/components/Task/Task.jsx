@@ -21,7 +21,7 @@ export default function Task(props) {
           type="checkbox"
           name=""
           id={props.id}
-          defaultChecked={props.is_done}
+          checked={props.is_done}
           onChange={handleOnChange}
         />
       </div>
