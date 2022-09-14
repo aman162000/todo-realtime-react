@@ -13,6 +13,7 @@ const reducer = {
 const store = configureStore({
   reducer,
   middleware: middleware,
+  devTools: import.meta.env.VITE_PRODUCTION === false,
 });
 
 export default store;
