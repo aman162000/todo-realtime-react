@@ -46,8 +46,8 @@ export default function Register() {
           if (e.target.classList.contains("is-invalid")) {
             e.target.classList.remove("is-invalid");
             e.target.classList.add("is-valid");
-            setData({ ...data, [e.target.name]: e.target.value });
           }
+          setData({ ...data, [e.target.name]: e.target.value });
         } else {
           e.target.classList.add("is-invalid");
         }
@@ -58,8 +58,8 @@ export default function Register() {
           if (e.target.classList.contains("is-invalid")) {
             e.target.classList.remove("is-invalid");
             e.target.classList.add("is-valid");
-            setData({ ...data, [e.target.name]: e.target.value });
           }
+          setData({ ...data, [e.target.name]: e.target.value });
         } else {
           e.target.classList.add("is-invalid");
         }
